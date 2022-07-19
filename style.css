@@ -7,3 +7,148 @@ body {
     padding: 0%;
     font-family: 'Ibarra Real Nova', serif;
 }
+
+
+
+/* banner section style  */
+
+.banner-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.banner {
+    width: 800px;
+    height: 400px;
+    background-color: rgb(12, 12, 12);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding-left: 100px;
+    border-radius: 30px;
+}
+
+.banner-info h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.banner-info p {
+    color: aliceblue;
+}
+
+.banner-info a {
+    text-decoration: none;
+    background-color: rgb(240, 6, 6);
+    padding: 5px;
+    border-radius: 4px;
+    color: azure;
+}
+
+/* blog section style  */
+.blog-live-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 18px;
+    column-gap: 20px;
+    margin-top: 100px;
+    margin-left: 50px;
+
+}
+
+.blog-section {
+    display: flex;
+    margin-left: 20px;
+}
+
+.button-potion {
+
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-top: 100px;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+    padding-top: 40px;
+}
+
+.button {
+    height: 20px;
+    width: 150px;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 15px;
+    text-align: center;
+
+
+
+}
+
+.blog-button {
+    background-color: rgb(230, 8, 8);
+}
+
+.button a {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
+
+.live-match {
+    box-shadow: 1px 1px 1px 1px gray;
+    width: 320px;
+}
+
+.live-match h4,
+button,
+i {
+    margin-left: 5px;
+}
+
+.blog-image img {
+    height: 200px;
+    width: 300px;
+}
+
+.footer-section {
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    margin-top: 200px;
+}
+footer h1{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 40px;
+}
+footer hr{
+    width: 750px;
+    border-color: grey;
+    margin-bottom: 20px;
+
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+   
+
+}
+.footer-link{
+    text-align: center;
+    
+}
