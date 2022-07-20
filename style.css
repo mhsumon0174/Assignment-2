@@ -229,10 +229,11 @@ footer a {
 
 /* Mobile devices style  */
 @media only screen and (max-width:667px) {
-    
-body{
-    width: 100%;
-}
+
+    body {
+        width: 100%;
+    }
+
     .banner-section {
         display: flex;
         justify-content: center;
@@ -314,8 +315,8 @@ body{
         margin-left: 0px;
 
         margin-top: 10px;
-display: flex;
-justify-content: center;
+        display: flex;
+        justify-content: center;
     }
 
     .button {
@@ -354,6 +355,13 @@ justify-content: center;
         padding: 10px;
         display: flex;
         justify-content: center;
+    }
+
+    footer hr {
+        width: 100%;
+        border-color: grey;
+        margin-bottom: 20px;
+
     }
 
     .social-icon {
@@ -457,7 +465,7 @@ justify-content: center;
     .footer-section {
         background-color: black;
         height: 300px;
-        width: 660px;
+        width: 100%;
         margin-top: 200px;
 
     }
