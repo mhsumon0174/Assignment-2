@@ -1,0 +1,27 @@
+/* blog section style  */
+.blog-flag-section{
+height :200px;
+width: 280px;
+padding-top: 40px;
+}
+.blog-image{
+    display: flex;
+    
+    
+   justify-content: center;
+    
+}
+.blog-flag-image img{
+    height: 60px;
+    width: 90px;
+    padding: 5px;
+}
+.blog-info h4{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.blog-info p{
+    font-size: 10px;
+    text-align: center;
+}

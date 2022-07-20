@@ -17,7 +17,15 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+   
+
+
 }
+
+
+
+
+
 
 .banner {
     width: 800px;
@@ -28,6 +36,26 @@ body {
     align-items: center;
     padding-left: 100px;
     border-radius: 30px;
+    transition: width 2s linear;
+    
+
+}
+
+
+
+.banner-section:hover .banner{
+    background-color: rgb(246, 248, 248);
+    width: 1500px;
+    background-image: url(assets/players.jpg);
+    background-repeat: no-repeat;
+}
+
+
+.banner-section:hover .banner-info {
+    display: none;
+}
+.banner-section:hover .banner p {
+    color: rgba(250, 248, 248, 0.89);
 }
 
 .banner-info h1 {
@@ -64,6 +92,7 @@ body {
     margin-left: 20px;
 }
 
+
 .button-potion {
 
     background-color: black;
@@ -86,31 +115,48 @@ body {
     height: 20px;
     width: 150px;
     background-color: aliceblue;
-    padding: 5px;
+    padding: 8px;
+    padding-top: 2px;
     border-radius: 5px;
     margin-left: 15px;
     text-align: center;
-
 
 
 }
 
 .blog-button {
     background-color: rgb(230, 8, 8);
+
 }
+
 
 .button a {
     text-decoration: none;
     color: rgb(12, 12, 12);
     font-size: 20px;
     font-weight: 700;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
+.blog-button a {
+    color: white;
+}
+
 .live-match {
-    box-shadow: 1px 1px 1px 1px gray;
-    width: 320px;
+    box-shadow: 10px 10px 10px 10px rgb(243, 231, 231);
+
+}
+
+.blog-image {
+    text-align: center;
+
+}
+
+.live-match .player-image {
+    width: 100%;
 }
 
 .live-match h4,
@@ -124,31 +170,58 @@ i {
     width: 300px;
 }
 
+.tab-button {
+    text-align: center;
+    margin-top: 40px;
+    display: none;
+}
+
+.tab-button a {
+    background-color: rgb(180, 10, 10);
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+
+}
+
+/* footer section style  */
+
 .footer-section {
     background-color: black;
     height: 200px;
     width: 100%;
     margin-top: 200px;
 }
-footer h1{
+
+footer h1 {
     color: aliceblue;
     text-align: center;
     padding-top: 40px;
 }
-footer hr{
+
+footer hr {
     width: 750px;
     border-color: grey;
     margin-bottom: 20px;
 
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: white;
     padding: 10px;
-   
+
 
 }
-.footer-link{
+
+.footer-link {
     text-align: center;
-    
+
+}
+
+.social-icon {
+    margin-top: 20px;
+    font-size: 20px;
 }
