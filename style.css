@@ -166,7 +166,7 @@ i {
 
 .blog-image img {
     height: 220px;
-    width: 320px;
+    
 }
 
 .tab-button {
@@ -250,7 +250,7 @@ footer a {
     }
 
     .banner {
-        width: 320px;
+        width: 330px;
         height: 778px;
         background-color: rgb(12, 12, 12);
         display: grid;
