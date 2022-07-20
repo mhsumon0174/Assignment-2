@@ -229,8 +229,8 @@ footer a {
 /* Mobile devices style  */
 @media only screen and (max-width:667px) {
     body {
-        text-align: center;
-        width: 100%;
+        
+        width: auto;
     }
 
     .banner-section {
