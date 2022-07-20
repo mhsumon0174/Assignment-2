@@ -54,6 +54,10 @@ body {
 .banner-section:hover .banner-info {
     display: none;
 }
+.banner-section:hover .hover {
+    display: none;
+}
+
 .banner-section:hover .banner p {
     color: rgba(250, 248, 248, 0.89);
 }
